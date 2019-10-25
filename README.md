@@ -76,15 +76,13 @@ Note: A conda environment file is provided with this project (so you can check/i
 
 
     
-### Train a agent
+### Training the agents
     
-Execute the provided notebook within this Nanodegree Udacity Online Workspace for "project #3  Collaboration and Competition" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
+This project has been developed and the D4PG algorithm has been trained on two platforms: the first platform is A laptop with the follwing configuration: Windows 10 Pro 64-bit, Intel Core i5-4200U CPU @ 1.6GHz, 8.0GB RAM. The second is the Udacity Online Workspace which allows using a GPU.
+
+The details about the training specifics and the results can be found in this [report](report.pdf).
 
 Note :
-- Manually playing with the environment has not been implemented as it is not available with Udacity Online Worspace (No Virtual Screen)    
-- Watching the trained agent playing in the environment has not been implemented neither, as it is not available with Udacity Online Worspace (No Virtual Screen) and not compatible with my personal setup (see Misc : Configuration used  section)
-
-### Misc : Configuration used 
-
-This agent has been trained on my "Deep Learning Dev Box", which is basically a Linux GPU Server, running Docker containers (using Nvidia Docker 2), serving Jupyter Lab notebooks which are accessed remotely via a web interface (or a ssh connection) : unfortunately this setup does not seem suitable to run Unity ML agent, with the GPU and providing a display for for the agent (See [Unity documentation](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Using-Docker.md) for more details). Thus the headless / no visualization version of the Unity environment was used.
+- Manually playing with the environment is poosible on the laptop platform, but not with the online udacity workspace (No Virtual Screen).    
+- Watching the trained agent playing in the environment is possible as well on the laptop platform, but not the Udacity Online Worspace (No Virtual Screen).
 
