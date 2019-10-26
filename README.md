@@ -80,7 +80,8 @@ Note: A conda environment file is provided with this project (so you can check/i
     
 This project has been developed and the D4PG algorithm has been trained on two platforms: the first platform is A laptop with the follwing configuration: Windows 10 Pro 64-bit, Intel Core i5-4200U CPU @ 1.6GHz, 8.0GB RAM. The second is the Udacity Online Workspace which allows using a GPU.
 
-The details about the training specifics and the results can be found in this [report](report.pdf).
+The details about the training specifics and the results can be found in this [report](Report.pdf), as well as the training performance achieved is shown below:
+![Training Performance](images/result_score1.jpg)
 
 Note :
 - Manually playing with the environment is poosible on the laptop platform, but not with the online udacity workspace (No Virtual Screen).    
