@@ -82,7 +82,6 @@ This project has been developed and the D4PG algorithm has been trained on two p
 
 The details about the training specifics and the results can be found in this [report](Report.pdf), as well as the training performance achieved is shown below:
 ![Training Performance](images/result_score1.jpg)
-
 Note :
 - Manually playing with the environment is poosible on the laptop platform, but not with the online udacity workspace (No Virtual Screen).    
 - Watching the trained agent playing in the environment is possible as well on the laptop platform, but not the Udacity Online Worspace (No Virtual Screen).
